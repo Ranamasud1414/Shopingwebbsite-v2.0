@@ -6,8 +6,8 @@ const CartItem = (props) => {
   const { addToCart, cartItems, removeFromCart, updateCartItemCount } = useContext(ShopContext);
 
   return (
-    <div className="card mb-5 justify-content-center d-flex w-80">
-      <div className="mt-5">
+    <div className="card cardbox mb-5 justify-content-center  w-80">
+      <div className="mt-2">
         <img src={productImage} className="card-img-top cartitemimg" alt={productName} />
       </div>
       <div className="card-body">

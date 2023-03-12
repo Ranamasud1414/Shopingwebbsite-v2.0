@@ -16,7 +16,7 @@ const ServiceItem = [
   {
     id: 3,
     title: "LADY-DATEJUST",
-    prices: "Oyster, 28 mm, yellow gold and diamonds Price on request",
+    prices: "Oyster, 28 mm, diamonds Price on request",
     url: "https://www.rolex.com/watches/lady-datejust/m279138rbr-0015.html",
     img: "https://content.rolex.com/dam/2022-11/upright-bba-with-shadow/m279138rbr-0015.png?impolicy=v6-upright&imwidth=420",
   },

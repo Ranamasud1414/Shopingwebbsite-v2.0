@@ -12,10 +12,11 @@ const Cart = () => {
 
   return (
     <div className="cart">
-      <div style={{ color: "white" }}>
+      <div style={{ color: "white", marginBottom: "10px" }}>
         <h1>Your Cart Item</h1>
       </div>
-      <div className="cart">
+
+      <div className="cart cardbox1">
         {PRODUCTS.map((product, index) => {
           if (cartItems[product.id] !== 0) {
             return <CartItem data={product} key={index} />;

@@ -6,7 +6,7 @@ const Video = () => {
   return (
     <div>
       <div className="container1">
-        <video loop muted autoPlay>
+        <video loop muted autoPlay controls>
           <source src={vdo} type="video/mp4" />
         </video>
         <h2 style={{ color: "white" }} className="text">
@@ -15,6 +15,9 @@ const Video = () => {
         {/* <li className="nav-item " style={{ fontSize: "20px", fontWeight: "500", color: "white" }}> */}
         <Link className="nav-link heroshop active position-absolute" aria-current="page" to="/shop">
           Shop Now
+        </Link>
+        <Link className=" position-absolute" to="/shop">
+          <i className="fa-solid fa-bag-shopping"></i>
         </Link>
       </div>
     </div>

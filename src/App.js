@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Shop from "./pages/Shop/Shop";
 import Cart from "./pages/Cart/Cart";
@@ -11,16 +11,16 @@ function App() {
   return (
     <div className="App">
       <ShopContextProvider>
-        <Router>
+        <HashRouter>
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
-            
+
             <Route path="/about" element={<About />} />
             <Route path="/shop" element={<Shop />} />
             <Route path="/cart" element={<Cart />} />
           </Routes>
-        </Router>
+        </HashRouter>
       </ShopContextProvider>
     </div>
   );

@@ -1,0 +1,78 @@
+/* .watch {
+  width: 100% !important;
+  margin: 10px 0 !important;
+  align-items: center;
+} */
+.watch {
+  width: 100% !important;
+  margin: 5px 0 !important;
+  align-items: center;
+}
+.card22 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+}
+.imgdiv {
+  display: flex;
+  position: relative;
+}
+.imgdetails {
+  position: relative;
+}
+@media only screen and (max-width: 360px) {
+  .watch {
+    overflow-x: scroll;
+  }
+  .card22 {
+    display: flex !important;
+    flex-direction: row;
+    margin-left: 200px;
+  }
+  .innerser {
+    width: 150px;
+  }
+  .imgdetails p {
+    display: none;
+  }
+  .imgdetails h5 {
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  .imgdetails {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+  }
+  .imgdetails button {
+    font-size: 10px;
+  }
+}
+@media only screen and (min-width: 361px) and (max-width: 768px) {
+  .watch {
+    overflow-x: scroll;
+  }
+  .card22 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+  }
+  .innerser {
+    width: 150px;
+  }
+  .imgdetails p {
+    display: none;
+  }
+  .imgdetails h5 {
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  .imgdetails {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+  }
+  .imgdetails button {
+    font-size: 10px;
+  }
+}

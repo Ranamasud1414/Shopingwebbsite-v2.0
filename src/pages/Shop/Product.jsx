@@ -1,4 +1,5 @@
 import React, { useContext } from "react";
+import { Link } from "react-router-dom";
 import { ShopContext } from "../../context/shop-context";
 const Product = (props) => {
   const { id, productName, price, productImage } = props.data;
@@ -16,6 +17,16 @@ const Product = (props) => {
         <button href="#" className="btn btn-light align-self-end " onClick={() => addToCart(id)}>
           Add To Cart {cartItemAmount > 0 && <>({cartItemAmount})</>}
         </button>
+        {/* <button href="#" className="btn btn-light align-self-end " onClick={() => addToCart(id)}>
+          Remove from Cart {cartItemAmount > 0 && <>({cartItemAmount})</>}
+        </button> */}
+        {cartItemAmount > 0 && (
+          <>
+            <Link className="nav-link active " style={{ color: "black" }} to="/cart">
+              <i className="fa-solid fa-cart-shopping cartinshoping"></i>
+            </Link>
+          </>
+        )}
       </div>
     </div>
   );

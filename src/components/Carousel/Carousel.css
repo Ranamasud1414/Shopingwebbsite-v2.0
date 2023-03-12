@@ -1,5 +1,78 @@
 .carouseltitle {
-  color: white;
-  font-size: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(247, 26, 26);
+  font-size: 40px;
+  width: 100%;
+  height: 80px;
+  background-color: white;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+.ci {
+  height: 400px;
+  width: 320px;
+  margin-right: 10px;
+  border-radius: 23px;
+}
+.carouselbody {
+  background-color: white;
+  padding: 20px;
+  margin-top: 1px !important;
+}
+.cinner {
+  padding-bottom: 50px;
+}
+
+/* @media (max-width: 480px) {
+  .carousel-inner {
+    width: 100%;
+    height: 400px;
+  }
+  .ci {
+    height: 400px;
+    width: 90%;
+    margin-right: 0px;
+    border-radius: 25px;
+  }
+  .carouseltitle {
+    font-size: 50px !important;
+  }
+  .carousel {
+    margin-bottom: 10px;
+  }
+} */
+@media only screen and (max-width: 360px) {
+  .ci {
+    height: 158px;
+    width: 115px;
+    margin-right: 5px;
+    border-radius: 25px;
+    margin-top: 10px;
+  }
+
+  .carouselbody {
+    width: 100% !important;
+    padding: 0 !important;
+  }
+  .cinner {
+    padding-bottom: 20px !important;
+  }
+}
+@media only screen and (min-width: 361px) and (max-width: 768px) {
+  .ci {
+    height: 158px;
+    width: 115px;
+    margin-right: 5px;
+    border-radius: 25px;
+    margin-top: 10px;
+  }
+
+  .carouselbody {
+    width: 100% !important;
+    padding: 0 !important;
+  }
+  .cinner {
+    padding-bottom: 10px !important;
+  }
 }

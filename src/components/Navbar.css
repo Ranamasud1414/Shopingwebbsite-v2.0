@@ -1,0 +1,51 @@
+/* .logo {
+  /* position: relative; */
+/* background-color: aquamarine; */
+
+.navbar {
+  background: rgb(58, 75, 180);
+  background: linear-gradient(90deg, rgba(58, 75, 180, 1) 0%, rgba(69, 144, 252, 1) 100%);
+}
+/* .navbar-nav {
+  margin-left: 0%;
+}
+
+.navbar-brand {
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-collapse {
+  background-color: rgba(55, 152, 237, 0.68);
+} */
+/* .navbar-brand {
+  font-family: "Road Rage", cursive;
+  font-size: 20px;
+}
+.navbar-toggler {
+  background-color: white;
+}
+.navbar-toggler-icon {
+
+  font-weight: bold;
+} */
+.logo {
+  height: 70px !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-bottom: 5px;
+  margin-top: -15px !important;
+}
+.navbar-brand {
+  font-size: 50px !important;
+  justify-content: center;
+  align-items: center;
+  font-family: "Times New Roman", Times, serif;
+}
+.container-fluid {
+  justify-content: center;
+  align-items: center;
+}
+.navbar-toggler {
+  margin-right: 10px;
+}

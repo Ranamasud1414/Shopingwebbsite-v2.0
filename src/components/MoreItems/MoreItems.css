@@ -17,6 +17,7 @@
   background: linear-gradient(180deg, rgba(86, 227, 176, 1) 0%, rgba(138, 7, 29, 1) 100%);
   color: white;
   border: none;
+  border-radius: 25px;
   -webkit-box-shadow: 10px 10px 14px -1px rgba(242, 228, 242, 0.14);
   -moz-box-shadow: 10px 10px 14px -1px rgba(242, 228, 242, 0.14);
   box-shadow: 10px 10px 14px -1px rgba(242, 228, 242, 0.14);
@@ -24,9 +25,15 @@
 
 .moreimg {
   height: 270px;
+  border-radius: 25px 25px 0 0;
 }
 .moreitemtitle {
   color: white;
   font-size: 100px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+@media (max-width: 480px) {
+  .container {
+    margin-top: 10px !important;
+  }
 }

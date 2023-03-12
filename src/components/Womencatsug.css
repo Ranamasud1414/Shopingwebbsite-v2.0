@@ -1,0 +1,137 @@
+.box {
+  background-color: white;
+  height: 400px;
+  margin-top: 10px;
+}
+.lbtnr {
+  display: flex;
+  position: absolute;
+  left: 0%;
+  margin-left: 10px;
+  top: 39%;
+  z-index: 3;
+
+  height: 100px;
+}
+.rbtnr {
+  display: flex;
+  position: absolute;
+  right: 0;
+  margin-right: 10px;
+  top: 39%;
+  z-index: 3;
+  height: 100px;
+}
+.btnleft44,
+.btnright {
+  background-color: #638dff93;
+  color: black;
+  border: none;
+}
+.btnleft44:hover {
+  background-color: black;
+  color: aliceblue;
+}
+.btnright:hover {
+  background-color: #638dff;
+  color: aliceblue;
+}
+
+.header {
+  height: 90px;
+  background-color: white;
+  display: flex;
+  font-size: 30px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.header p {
+  color: rgb(237, 138, 8);
+  margin-left: -265px;
+  margin-top: 50px;
+  font-size: 20px;
+}
+.sfyitem {
+  position: relative;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+
+  padding-left: 70px;
+
+  justify-content: space-between;
+  overflow-x: scroll;
+  padding-right: 30px;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  flex-wrap: nowrap;
+}
+.sfyi {
+  height: 300px;
+  display: flex;
+  /* position: absolute; */
+  justify-content: center;
+  margin-right: 50px;
+
+  bottom: 0;
+}
+.sfyi img {
+  /* width: 160px; */
+  max-width: 200px;
+  height: 180px;
+  /* height: auto; */
+  margin-top: 10px;
+}
+.sfyi p {
+  margin-bottom: 0;
+  /* position: absolute; */
+  display: flex;
+  margin-top: -6px;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  bottom: 0;
+}
+.itemdetails {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  bottom: 0;
+}
+.tag p {
+  margin-top: 20px;
+  font-size: 40px;
+  color: white;
+  font-weight: 500;
+}
+@media only screen and (max-width: 360px) {
+}
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+  .sfyitem {
+    padding-left: 20px;
+    padding-right: 0;
+  }
+  .sfyi {
+    margin-right: 15px;
+    height: 205px;
+  }
+  .box {
+    height: 280px;
+  }
+  .sfyi img {
+    max-width: 150px;
+    height: 120px;
+    margin-right: 10px;
+    border-radius: 10%;
+  }
+  .sfyi .itemdetails {
+    bottom: 8% !important;
+  }
+  .sfyi p {
+    font-size: 12px;
+  }
+}
