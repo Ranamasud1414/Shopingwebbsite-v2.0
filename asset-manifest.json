@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Shopingwebbsite-v2.0/static/css/main.8417f4aa.css",
-    "main.js": "/Shopingwebbsite-v2.0/static/js/main.7769dd08.js",
+    "main.css": "/Shopingwebbsite-v2.0/static/css/main.ddc12706.css",
+    "main.js": "/Shopingwebbsite-v2.0/static/js/main.44dcc8cb.js",
     "static/media/2.png": "/Shopingwebbsite-v2.0/static/media/2.5f080d9e47bf46ca3fce.png",
     "static/media/3.png": "/Shopingwebbsite-v2.0/static/media/3.c7785c796d0b2bf5aa2b.png",
     "static/media/4.png": "/Shopingwebbsite-v2.0/static/media/4.dce93278370eb9a94e56.png",
@@ -15,25 +15,25 @@
     "static/media/pic3.jpg": "/Shopingwebbsite-v2.0/static/media/pic3.fd24d53cff2d3f28f64a.jpg",
     "static/media/9.webp": "/Shopingwebbsite-v2.0/static/media/9.91d4c35f1d337159f763.webp",
     "static/media/toy2.jpg": "/Shopingwebbsite-v2.0/static/media/toy2.dd3db9879f35fc4da429.jpg",
-    "static/media/perfume.svg": "/Shopingwebbsite-v2.0/static/media/perfume.aae7050db872934428e6.svg",
+    "static/media/perfume.svg": "/Shopingwebbsite-v2.0/static/media/perfume.aae7050db872934428e6c3f6bdee2ade.svg",
     "static/media/6.webp": "/Shopingwebbsite-v2.0/static/media/6.5828a0fe3c77468b8726.webp",
-    "static/media/dress.svg": "/Shopingwebbsite-v2.0/static/media/dress.daf56af47ca8e9d446d5.svg",
-    "static/media/toy.svg": "/Shopingwebbsite-v2.0/static/media/toy.735b353ff89da0605ad3.svg",
+    "static/media/dress.svg": "/Shopingwebbsite-v2.0/static/media/dress.daf56af47ca8e9d446d579b9e4c43b2f.svg",
+    "static/media/toy.svg": "/Shopingwebbsite-v2.0/static/media/toy.735b353ff89da0605ad3a1ffcec27338.svg",
     "static/media/fasion.jpg": "/Shopingwebbsite-v2.0/static/media/fasion.9544103f924f3066531c.jpg",
-    "static/media/home.svg": "/Shopingwebbsite-v2.0/static/media/home.f9eacf37ce359c900271.svg",
+    "static/media/home.svg": "/Shopingwebbsite-v2.0/static/media/home.f9eacf37ce359c9002710a472fd9ef1c.svg",
     "static/media/grocery.jpg": "/Shopingwebbsite-v2.0/static/media/grocery.dc32070acbbdbdc07dc1.jpg",
     "static/media/toyes.jpg": "/Shopingwebbsite-v2.0/static/media/toyes.057d2275457af97de570.jpg",
     "static/media/7.webp": "/Shopingwebbsite-v2.0/static/media/7.59c9a0eba54726d9fc95.webp",
     "static/media/twowheelers.jpg": "/Shopingwebbsite-v2.0/static/media/twowheelers.552645a7fc3782bf2be9.jpg",
-    "static/media/boe1.svg": "/Shopingwebbsite-v2.0/static/media/boe1.6dfb86ff6d7189dab5d6.svg",
-    "static/media/bat.svg": "/Shopingwebbsite-v2.0/static/media/bat.bad74d0047654d89df38.svg",
+    "static/media/boe1.svg": "/Shopingwebbsite-v2.0/static/media/boe1.6dfb86ff6d7189dab5d641d94641b13f.svg",
+    "static/media/bat.svg": "/Shopingwebbsite-v2.0/static/media/bat.bad74d0047654d89df38b76b5f21d16d.svg",
     "static/media/10.webp": "/Shopingwebbsite-v2.0/static/media/10.84dd6b533214c7e47e20.webp",
     "index.html": "/Shopingwebbsite-v2.0/index.html",
-    "main.8417f4aa.css.map": "/Shopingwebbsite-v2.0/static/css/main.8417f4aa.css.map",
-    "main.7769dd08.js.map": "/Shopingwebbsite-v2.0/static/js/main.7769dd08.js.map"
+    "main.ddc12706.css.map": "/Shopingwebbsite-v2.0/static/css/main.ddc12706.css.map",
+    "main.44dcc8cb.js.map": "/Shopingwebbsite-v2.0/static/js/main.44dcc8cb.js.map"
   },
   "entrypoints": [
-    "static/css/main.8417f4aa.css",
-    "static/js/main.7769dd08.js"
+    "static/css/main.ddc12706.css",
+    "static/js/main.44dcc8cb.js"
   ]
 }
